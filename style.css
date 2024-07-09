@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+.nav_con ul li{
+    display: flex;
+    color: azure;
+    display: inline-block;
+    padding: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 2px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.nav_con {
+    text-align: center;
+    background-color: blueviolet;
+}
+ul{
+    margin: 0;
+    padding: 20px;
+}
+.nav_con ul li:hover{
+    border-top-color: rgb(201, 160, 59);
+    border-bottom-color: rgb(201, 160, 59);
+}
